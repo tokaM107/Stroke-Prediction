@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="475" viewBox="0 0 820 475" role="img" aria-labelledby="title desc">
+  <title id="title">Voting ensemble confusion matrix</title>
+  <desc id="desc">Of 802 people without stroke, 624 were correctly classified and 178 were false positives. Of 49 people with stroke, 40 were detected and 9 were missed.</desc>
+  <rect width="820" height="475" rx="16" fill="#ffffff"/>
+  <text x="30" y="39" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Voting ensemble: holdout predictions</text>
+  <text x="30" y="65" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="14">Actual class compared with the predicted class · 851 records</text>
+  <text x="514" y="105" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" font-weight="700">PREDICTED</text>
+  <text x="380" y="132" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle">No stroke</text>
+  <text x="625" y="132" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle">Stroke</text>
+  <text x="58" y="292" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" transform="rotate(-90 58 292)">ACTUAL</text>
+  <text x="230" y="214" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="end">No stroke</text>
+  <text x="230" y="236" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="end">802 records</text>
+  <text x="230" y="359" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="end">Stroke</text>
+  <text x="230" y="381" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="end">49 records</text>
+  <rect x="270" y="150" width="220" height="125" rx="12" fill="#dbeafe"/>
+  <rect x="515" y="150" width="220" height="125" rx="12" fill="#ffedd5"/>
+  <rect x="270" y="295" width="220" height="125" rx="12" fill="#fee2e2"/>
+  <rect x="515" y="295" width="220" height="125" rx="12" fill="#ccfbf1"/>
+  <g fill="#0f172a" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="380" y="209" font-size="36" font-weight="700">624</text>
+    <text x="625" y="209" font-size="36" font-weight="700">178</text>
+    <text x="380" y="354" font-size="36" font-weight="700">9</text>
+    <text x="625" y="354" font-size="36" font-weight="700">40</text>
+  </g>
+  <g fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle">
+    <text x="380" y="239">Correct negatives</text>
+    <text x="625" y="239">False positives</text>
+    <text x="380" y="384">Missed strokes</text>
+    <text x="625" y="384">Detected strokes</text>
+  </g>
+  <text x="502" y="453" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle">40 of 49 stroke cases identified · 178 of 802 non-stroke cases flagged</text>
+</svg>

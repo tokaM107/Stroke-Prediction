@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="470" viewBox="0 0 920 470" role="img" aria-labelledby="title desc">
+  <title id="title">Recall and precision by model on the exploratory holdout set</title>
+  <desc id="desc">Grouped horizontal bars compare five classifiers. Logistic regression recall 85.7 percent and precision 14.7 percent; decision tree 75.5 and 13.6; random forest 71.4 and 16.5; XGBoost 63.3 and 18.3; voting ensemble 81.6 and 18.3.</desc>
+  <rect width="920" height="470" rx="16" fill="#ffffff"/>
+  <text x="30" y="39" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Model comparison</text>
+  <text x="30" y="65" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="14">851-record exploratory holdout · 49 stroke cases</text>
+  <rect x="690" y="31" width="14" height="14" rx="3" fill="#2563eb"/>
+  <text x="711" y="43" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="14">Recall</text>
+  <rect x="785" y="31" width="14" height="14" rx="3" fill="#0d9488"/>
+  <text x="806" y="43" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="14">Precision</text>
+
+  <rect x="18" y="341" width="884" height="58" rx="9" fill="#f0fdf4"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="260" y1="94" x2="260" y2="400"/>
+    <line x1="380" y1="94" x2="380" y2="400"/>
+    <line x1="500" y1="94" x2="500" y2="400"/>
+    <line x1="620" y1="94" x2="620" y2="400"/>
+    <line x1="740" y1="94" x2="740" y2="400"/>
+  </g>
+  <g fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="15">
+    <text x="30" y="128">Logistic regression</text>
+    <text x="30" y="188">Decision tree</text>
+    <text x="30" y="248">Random forest</text>
+    <text x="30" y="308">XGBoost</text>
+    <text x="30" y="368" font-weight="700">Voting ensemble</text>
+  </g>
+  <g fill="#2563eb">
+    <rect x="260" y="106" width="411.4" height="14" rx="4"/>
+    <rect x="260" y="166" width="362.4" height="14" rx="4"/>
+    <rect x="260" y="226" width="342.9" height="14" rx="4"/>
+    <rect x="260" y="286" width="303.7" height="14" rx="4"/>
+    <rect x="260" y="346" width="391.8" height="14" rx="4"/>
+  </g>
+  <g fill="#0d9488">
+    <rect x="260" y="126" width="70.6" height="14" rx="4"/>
+    <rect x="260" y="186" width="65.3" height="14" rx="4"/>
+    <rect x="260" y="246" width="79.2" height="14" rx="4"/>
+    <rect x="260" y="306" width="88.0" height="14" rx="4"/>
+    <rect x="260" y="366" width="88.1" height="14" rx="4"/>
+  </g>
+  <g fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">
+    <text x="679" y="118">85.7%</text><text x="338" y="138">14.7%</text>
+    <text x="630" y="178">75.5%</text><text x="333" y="198">13.6%</text>
+    <text x="611" y="238">71.4%</text><text x="347" y="258">16.5%</text>
+    <text x="572" y="298">63.3%</text><text x="356" y="318">18.3%</text>
+    <text x="660" y="358">81.6%</text><text x="356" y="378">18.3%</text>
+  </g>
+  <g fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">
+    <text x="260" y="424">0%</text><text x="380" y="424">25%</text><text x="500" y="424">50%</text><text x="620" y="424">75%</text><text x="740" y="424">100%</text>
+  </g>
+  <text x="500" y="452" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle">Share of relevant cases / positive predictions</text>
+</svg>
